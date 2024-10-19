@@ -98,29 +98,20 @@ import {
       ],
     },
   ];
-  const testimonials = [
+  const OtherActivities = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      Activity:
+        "I play Football, Volleyball and Cricket. I play sports very often which freshens my mind helps me to stay fit . I also go Gym and i love to work out.",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      Activity:
+        "I Play Music like Guitar in my free time. I learnt this long back when i was in 10th standard.I only play when I'm alone which makes me Happy",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      Activity:
+        "I am fond of reading history. I have seen many Documentries and I'm very curious to know about the historical things",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -190,4 +181,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences,testimonials, projects };
+  export { services, technologies, experiences,OtherActivities, projects };
