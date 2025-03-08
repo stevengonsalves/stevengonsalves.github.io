@@ -2,19 +2,18 @@ import {
     data,
     creator,
     ml,
-    javascript,
+   fast,
     sql,
-    html,
-    css,
-    reactjs,
-    c,
-    nodejs,
+    ten,
+    flask,
     estate,
     Agri,
     mood,
     python,
     jupitarNotebook,
     intern,
+    Gen,
+    fr,
   } from "../assets";
   
   export const navLinks = [
@@ -49,33 +48,22 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Tensorflow",
+      icon: ten,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "FastApi",
+      icon: fast,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "C++",
-      icon: c,
+      name: "Flask",
+      icon: flask,
     },
     {
       name: "Python",
       icon: python,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+
     {
       name: "Jupitar Notebook",
       icon: jupitarNotebook,
@@ -95,6 +83,17 @@ import {
       points: [
         "Data science Internship in Accolade Tech Solutions where I leant to work with Datasets.",
         "I leant some of the of important ML Algorithm and I learnt to use some Important tools like JupiterNote Book"
+      ],
+    },
+    {
+      title: "Internship",
+      company_name: "Accolade Tech Solution",
+      icon: intern,
+      iconBg: "#383E56",
+      date: "February 2025 - Present",
+      points: [
+        "AIML Internship in Accolade Tech Solutions.",
+        "I'm Currently learning new Concepts on AI."
       ],
     },
   ];
@@ -178,6 +177,69 @@ import {
       ],
       image: Agri,
       source_code_link: "https://github.com/stevengonsalves/AgricultureManagement",
+    },
+        {
+      name: "Cold Email Generator",
+      description:
+        "Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions.",
+      tags: [
+        {
+          name: "Langchain",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Groq",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Llama 3.1",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Gen,
+      source_code_link: "https://github.com/stevengonsalves/Cold_Email_Generator.git",
+    },
+    {
+      name: "Churn Prediction For Telecom Industry",
+      description:
+        "Using Random Forest, a machine learning-based Customer Churn Prediction system was developed and implemented, improving telecom client retention tactics. To increase prediction accuracy, data preprocessing, feature engineering, and SMOTE were used. It is under review for IEEE publication",
+      tags: [
+        {
+          name: "Random Forest",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SMOTE",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fr,
+      source_code_link: "https://github.com/stevengonsalves/CustomerChurnPrediction.git",
+    },
+    {
+      name: "Potato Disease Detector",
+      description:
+        "Detecting Potato disease using TensorFlow and CNN models. Using react for front end and using FastAPI for the backend",
+      tags: [
+        {
+          name: "FastAPI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TensorFlow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pot,
+      source_code_link: "https://github.com/stevengonsalves/Potato.git",
     },
   ];
   

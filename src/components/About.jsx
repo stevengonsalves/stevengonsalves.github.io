@@ -48,11 +48,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I am a proficient software developer with a background in various programming languages,
-        including C, C++, Java, Python, and JavaScript. My expertise spans front-end development 
-        using HTML, CSS, and JavaScript, alongside proficiency in frameworks like React, Node.js. 
-        I have hands-on experience in developing projects that integrate machine learning and AI,
-        I’m a quick learner and a collaborative team member.
+        I am a passionate Computer Science engineering student with a strong foundation in programming languages, 
+        including Python, and MySQL. My interests lie in Data Science and AI/ML, 
+        and I have worked on projects integrating machine learning and artificial intelligence. 
+        Additionally, I am proficient in backend development using FastAPI and Flask. As a quick learner and a disciplined, organized team player,
+        I am eager to collaborate and bring innovative ideas to life!
         Let’s work together to bring your innovative ideas to life! 
       </motion.p>
 
