@@ -14,6 +14,7 @@ import {
     intern,
     Gen,
     fr,
+    pot,
   } from "../assets";
   
   export const navLinks = [
@@ -33,7 +34,7 @@ import {
   
   const services = [
     {
-      title: "Machine Learning",
+      title: "AIML",
       icon: ml,
     },
     {

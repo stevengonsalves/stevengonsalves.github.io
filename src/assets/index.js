@@ -18,7 +18,9 @@ import reactjs from "./tech/reactjs.png";
 import sql from "./tech/sql.png";
 import python from "./tech/python.png";
 import c from "./tech/c.png";
-
+import flask from "./tech/flask.png";
+import fast from "./tech/fast.png";
+import ten from "./tech/ten.png";
 
 import intern from "./company/intern.png";
 
@@ -26,6 +28,9 @@ import intern from "./company/intern.png";
 import Agri from "./Agri.png";
 import estate from "./estate.png";
 import mood from "./mood.png";
+import Gen from "./Gen.png";
+import fr from "./fr.png";
+import pot from "./pot.png";
 
 export {
   logo,
@@ -50,5 +55,11 @@ export {
   mood,
   intern,
   Agri,
+  flask,
+  fast,
+  Gen,
+  fr,
+  pot,
+  ten,
   jupitarNotebook,
 };
