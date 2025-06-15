@@ -15,6 +15,7 @@ import {
     Gen,
     fr,
     pot,
+    research,
   } from "../assets";
   
   export const navLinks = [
@@ -91,10 +92,21 @@ import {
       company_name: "Accolade Tech Solution",
       icon: intern,
       iconBg: "#383E56",
-      date: "February 2025 - Present",
+      date: "February 2025 - May 2025",
       points: [
         "AIML Internship in Accolade Tech Solutions.",
-        "I'm Currently learning new Concepts on AI."
+        "I have completed my Internship with a project that is Developed a Glaucoma Detection System using retina datasets (2-3 hospitals) with TensorFlow, CNN (VGG16), achieving 95%+ accuracy, integrated with a PHP-XAMPP frontend and Flask backend e-commerce platform during internship at Accolade Tech Solutions."
+      ],
+    },
+     {
+      title: "Research Work",
+      company_name: "Improving Subsriber Retention: A Machine Learning Approach with Random Forest and SMOTE",
+      icon: research,
+      iconBg: "#383E56",
+      date: "September 2024 - June 2025",
+      points: [
+        "For subscription-based companies, especially those in the telecom sector, customer attrition is a serious problem. Using machine learning techniques and the Telco Customer attrition dataset, this research forecasts customer attrition. Strong data preprocessing, feature engineering, and predictive modeling with cutting-edge algorithms like LightGBM and Random Forest as well as a Voting Classifier to improve accuracy are all part of the approach. SMOTE ensures balanced forecasts by addressing class imbalance. Effective retention tactics may be implemented by stakeholders thanks to an intuitive dashboard that offers real-time projections, churn patterns, and interactive visualizations. This project provides a complete solution to enhance business results and lower churn rates.",
+        "(Acceptance ID: ICIRCA047) has been accepted for oral presentation and inclusion in the ICIRCA 2025 Conference Proceedings. The conference will be held on June 25-27, 2025 at RVS College of Engineering and Technology, Coimbatore, Tamil Nadu, India."
       ],
     },
   ];
