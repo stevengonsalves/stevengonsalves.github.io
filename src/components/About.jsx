@@ -48,12 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a passionate Computer Science engineering student with a strong foundation in programming languages, 
-        including Python, and MySQL. My interests lie in Data Science and AI/ML, 
-        and I have worked on projects integrating machine learning and artificial intelligence. 
-        Additionally, I am proficient in backend development using FastAPI and Flask. As a quick learner and a disciplined, organized team player,
-        I am eager to collaborate and bring innovative ideas to life!
-        Let’s work together to bring your innovative ideas to life! 
+Hi, I’m Steevan—originally from India and now pursuing my Master’s in Germany. 
+With a strong foundation from my Bachelor’s studies, I’m currently working as an AI Werkstudent at AEG Power Solutions, 
+building practical solutions in automation and intelligent systems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

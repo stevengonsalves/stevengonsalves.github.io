@@ -16,6 +16,7 @@ import {
     fr,
     pot,
     research,
+    AEG,
   } from "../assets";
   
   export const navLinks = [
@@ -107,6 +108,16 @@ import {
       points: [
         "For subscription-based companies, especially those in the telecom sector, customer attrition is a serious problem. Using machine learning techniques and the Telco Customer attrition dataset, this research forecasts customer attrition. Strong data preprocessing, feature engineering, and predictive modeling with cutting-edge algorithms like LightGBM and Random Forest as well as a Voting Classifier to improve accuracy are all part of the approach. SMOTE ensures balanced forecasts by addressing class imbalance. Effective retention tactics may be implemented by stakeholders thanks to an intuitive dashboard that offers real-time projections, churn patterns, and interactive visualizations. This project provides a complete solution to enhance business results and lower churn rates.",
         "(Acceptance ID: ICIRCA047) has been accepted for oral presentation and inclusion in the ICIRCA 2025 Conference Proceedings. The conference will be held on June 25-27, 2025 at RVS College of Engineering and Technology, Coimbatore, Tamil Nadu, India."
+      ],
+    },
+    {
+      title: "Working Student",
+      company_name: "AEG Power Solutions",
+      icon: AEG,
+      iconBg: "#383E56",
+      date: "March 2026 - Present",
+      points: [
+        "At AEG Power Solutions, I work as a Werkstudent in Artificial Intelligence, focusing on developing automation tools and AI-driven solutions to improve efficiency in business processes, particularly within order management and operations."
       ],
     },
   ];

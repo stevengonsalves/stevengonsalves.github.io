@@ -24,6 +24,7 @@ import ten from "./tech/ten.png";
 
 import intern from "./company/intern.png";
 import research from "./company/research.jpg";
+import AEG from "./company/AEG.png";
 
 import Agri from "./Agri.png";
 import estate from "./estate.png";
@@ -63,4 +64,5 @@ export {
   ten,
   jupitarNotebook,
   research,
+  AEG,
 };
